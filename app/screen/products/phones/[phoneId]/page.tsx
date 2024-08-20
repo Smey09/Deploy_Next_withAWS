@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
-import Icons from "@/app/components/Atomic/Icons";
 
 interface Product {
   id: number;

@@ -12,9 +12,13 @@
     "test-storybook": "storybook test --coverage"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.28",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.7.0",
@@ -29,6 +33,7 @@
     "@storybook/test": "^8.2.9",
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-copy-to-clipboard": "^5.0.7",
     "@types/react-dom": "^18",
     "aws-cdk-lib": "2.142.1",
     "constructs": "10.3.0",
