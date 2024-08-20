@@ -20,7 +20,7 @@ jobs:
           node-version: "20"
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
 
   deploy:
     runs-on: ubuntu-latest
@@ -31,7 +31,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
+
+      - name: Install SST
+        run: yarn add sst
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
