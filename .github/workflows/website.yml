@@ -34,7 +34,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Install SST
-        run: yarn add sst
+        run: yarn add sst@2.43.6
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
