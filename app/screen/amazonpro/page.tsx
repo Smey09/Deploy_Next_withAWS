@@ -73,7 +73,7 @@ const MoviesPage: React.FC = () => {
             key={data._id}
             className="bg-white shadow-md rounded-lg overflow-hidden hover:bg-gray-200 transition"
           >
-            <img
+            <Image
               src={data.image}
               alt={data.title}
               className="w-full h-64 object-cover"

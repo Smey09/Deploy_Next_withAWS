@@ -1,6 +1,7 @@
 "use client";
+
 import Pagination from "@/app/components/Organisms/Paginations";
-import React from "react";
+import React, { Suspense } from "react";
 import NevBar from "../NevBar";
 import Footer from "../Footer";
 import CartProduct from "@/app/components/CardProduct";
@@ -27,13 +28,17 @@ const Doc = () => {
       <div className="bg-gray-500 p-4 rounded-xl text-black m-2">
         <p>NevBar</p>
         <div className="transform transition-transform duration-300 ease-in-out hover:scale-105">
-          <NevBar />
+          <Suspense fallback={<div>Loading Navbar...</div>}>
+            <NevBar />
+          </Suspense>
         </div>
       </div>
       <div className="bg-gray-500 p-4 rounded-xl text-black m-2">
         <p>Footer Page</p>
         <div className="transform transition-transform duration-300 ease-in-out hover:scale-105">
-          <Footer />
+          <Suspense fallback={<div>Loading Footer...</div>}>
+            <Footer />
+          </Suspense>
         </div>
       </div>
       <div className="h-[700px] flex mb-4 justify-between text-white">
@@ -48,13 +53,17 @@ const Doc = () => {
         <div className="w-full md:w-[48%] flex flex-col gap-4">
           <div className="h-[50%] bg-gray-500 p-5 rounded-xl hover:bg-white transform transition-transform duration-300 ease-in-out hover:scale-105 hover:text-blue-500">
             <h1 className="text-xl font-bold">Button Paginations</h1>
-            <Pagination total={1} limit={1} />
+            <Suspense fallback={<div>Loading Pagination...</div>}>
+              <Pagination total={1} limit={1} />
+            </Suspense>
           </div>
           <div className="h-[50%] bg-gray-500 p-5 rounded-xl hover:bg-white transform transition-transform duration-300 ease-in-out hover:scale-105 hover:text-blue-500">
             <h1 className="text-xl font-bold">Login Form</h1>
-            <div className="bg-gray-100 hover:bg-gray-200 rounded-lg border-double border-4 border-indigo-600">
-              <LoginForm />
-            </div>
+            <Suspense fallback={<div>Loading Login Form...</div>}>
+              <div className="bg-gray-100 hover:bg-gray-200 rounded-lg border-double border-4 border-indigo-600">
+                <LoginForm />
+              </div>
+            </Suspense>
           </div>
         </div>
       </div>

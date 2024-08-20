@@ -27,7 +27,6 @@ interface Video {
   type: string;
 }
 
-// Utility function to truncate text
 const truncateText = (text: string, maxLength: number) => {
   if (!text) return "";
   return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
@@ -48,7 +47,6 @@ const MovieTMDB: React.FC = () => {
     }
   };
 
-  // Extract the first video if available
   const firstVideo = movieDetails?.videos.results[0];
 
   return (
@@ -57,7 +55,6 @@ const MovieTMDB: React.FC = () => {
       {moviesError && <p className="text-red-500">{moviesError}</p>}
       {detailsError && <p className="text-red-500">{detailsError}</p>}
 
-      {/* Display video information in a card */}
       {firstVideo && (
         <div className="mb-4 p-2 rounded transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gray-200">
           <Image
@@ -87,7 +84,7 @@ const MovieTMDB: React.FC = () => {
               key={movie.id}
               className="bg-white shadow-md rounded-lg overflow-hidden hover:bg-gray-200 transition"
             >
-              <img
+              <Image
                 src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
                 alt={movie.title}
                 className="w-full h-64 object-cover"
@@ -117,7 +114,6 @@ const MovieTMDB: React.FC = () => {
         )}
       </div>
 
-      {/* Pagination Controls */}
       <div className="flex justify-between items-center mt-8">
         <button
           onClick={() => handlePageChange(page - 1)}
