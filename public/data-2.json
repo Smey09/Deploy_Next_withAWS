@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://images.fonearena.com/blog/wp-content/uploads/2024/07/Samsung-Galxy-Z-Fold-6-1-1024x643.jpg",
+    "date": "Fri 17 Aug 10:00AM",
+    "title": "Galaxy Z Fold 6: A Premium Foldable Experience",
+    "description": "A premium foldable smartphone with a large 7.6-inch AMOLED display and powerful specs.",
+    "iconText": "Find out more"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://tech.news.am/static/news/b/2024/01/2786.jpg",
+    "date": "Sat 18 Aug 11:00AM",
+    "title": "iPhone 16 Pro Max: Apple’s Flagship Phone",
+    "description": "Apple's flagship smartphone with advanced A17 Bionic chip and ProMotion display.Apple's flagship smartphone with advanced A17 Bionic chip and ProMotion display.Apple's flagship smartphone with advanced A17 Bionic chip and ProMotion display.Apple's flagship smartphone with advanced A17 Bionic chip and ProMotion display.",
+    "iconText": "Learn more"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/56/2024/04/01/Google-Rilis-Tiga-Model-Pixel-9-Berbeda-Apa-yang-Beda-dari-Versi-Sebelumnya-3132040437.jpg",
+    "date": "Sun 19 Aug 12:00PM",
+    "title": "Pixel 9 Pro: Google's Latest Innovation",
+    "description": "Google's latest phone featuring the Tensor G3 chip and an improved camera system.",
+    "iconText": "Read review"
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://images.media-outreach.com/452105/Waffle-Main-KV-Dark-Horizontal-R.jpg",
+    "date": "Mon 20 Aug 01:00PM",
+    "title": "OnePlus 12T: High Performance with Fast Charging",
+    "description": "A high-performance smartphone with a 120Hz AMOLED display and fast charging capabilities.",
+    "iconText": "Compare now"
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://assets.hardwarezone.com/img/2023/06/xiaomi-13-ultra-00.jpg",
+    "date": "Tue 21 Aug 02:30PM",
+    "title": "Xiaomi Mi 13 Ultra: Power and Photography",
+    "description": "A powerful device with a high-resolution camera system and fast processing capabilities.",
+    "iconText": "Discover more"
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/XJ28Sj8p8qbQ3yvGg3dAsk.jpg",
+    "date": "Wed 22 Aug 03:00PM",
+    "title": "Sony Xperia 1 V: A Cinematic Experience",
+    "description": "A flagship smartphone with a 4K OLED display and advanced camera features.",
+    "iconText": "See results"
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://cdn.tatlerasia.com/tatlerasia/i/2023/05/09135624-6-p60-pro-appgallery-copy_cover_1600x900.jpg",
+    "date": "Thu 23 Aug 04:45PM",
+    "title": "Huawei P60 Pro: Leica Camera Excellence",
+    "description": "A high-end smartphone with a stunning design and powerful Leica camera.",
+    "iconText": "Check stats"
+  },
+  {
+    "id": 8,
+    "imageUrl": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2023/03/Oppo-Find-X6-Pro-Price-in-Nepal-2023.jpg",
+    "date": "Fri 24 Aug 05:15PM",
+    "title": "Oppo Find X6 Pro: Smooth User Experience",
+    "description": "A premium smartphone with a high refresh rate display and advanced camera capabilities.",
+    "iconText": "View gallery"
+  },
+  {
+    "id": 9,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/iftdFwwUV4iJwnzX48YwoM-1200-80.jpg",
+    "date": "Sat 25 Aug 10:30AM",
+    "title": "Asus ROG Phone 7: Gaming Performance",
+    "description": "A gaming smartphone with a high refresh rate AMOLED display and powerful performance.",
+    "iconText": "Read now"
+  },
+  {
+    "id": 10,
+    "imageUrl": "https://cdn.techmesto.com/wp-content/uploads/2021/07/Nokia-XR20.png",
+    "date": "Sun 26 Aug 11:00AM",
+    "title": "Nokia XR20: Rugged Durability",
+    "description": "A rugged smartphone with military-grade durability and long battery life.",
+    "iconText": "Watch video"
+  },
+  {
+    "id": 11,
+    "imageUrl": "https://i.gadgets360cdn.com/large/Motorola_Edge_40_Pro_Evan_Blass_big_ndtv_1678085585298.jpg",
+    "date": "Mon 27 Aug 09:00AM",
+    "title": "Motorola Edge 40 Pro: Curved OLED Display",
+    "description": "A sleek smartphone with a curved OLED display and fast charging capabilities.",
+    "iconText": "Find out more"
+  },
+  {
+    "id": 12,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7J4bzzOGZwW_gKEYOxfD_RXZJzDJJI7mwWA&s",
+    "date": "Tue 28 Aug 10:00AM",
+    "title": "Realme GT 3: Budget-Friendly Performance",
+    "description": "A budget-friendly smartphone with a high refresh rate display and large battery.",
+    "iconText": "Learn more"
+  },
+  {
+    "id": 13,
+    "imageUrl": "https://www.androidheadlines.com/wp-content/uploads/2022/05/Vivo-X80-Pro-AH-HR-Feature-scaled.jpg",
+    "date": "Wed 29 Aug 11:00AM",
+    "title": "Vivo X80 Pro: ZEISS Camera Technology",
+    "description": "A premium smartphone with a ZEISS camera system and high refresh rate display.",
+    "iconText": "Read review"
+  },
+  {
+    "id": 14,
+    "imageUrl": "https://i.gadgets360cdn.com/large/zte_axon_40_pro_black_silver_1652096991907.jpg",
+    "date": "Thu 30 Aug 01:00PM",
+    "title": "ZTE Axon 40 Ultra: Under-Display Camera",
+    "description": "A flagship smartphone with an under-display camera and high-end specifications.",
+    "iconText": "Compare now"
+  },
+  {
+    "id": 15,
+    "imageUrl": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/LG_V60_Verge.jpg",
+    "date": "Fri 31 Aug 02:30PM",
+    "title": "LG V70 ThinQ: Advanced Audio Features",
+    "description": "A high-performance smartphone with an OLED display and advanced audio features.",
+    "iconText": "Discover more"
+  },
+  {
+    "id": 16,
+    "imageUrl": "https://amateurphotographer.com/wp-content/uploads/sites/7/2024/01/samsung-galaxy-s24-ultra-JW-AP-cameras-bokeh-IMG_20240115_145323.jpg",
+    "date": "Sat 01 Sep 03:00PM",
+    "title": "Samsung Galaxy S24 Ultra: Top-of-the-Line Performance",
+    "description": "A flagship smartphone with a powerful camera system and S Pen support.",
+    "iconText": "See results"
+  },
+  {
+    "id": 17,
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2023/08/gold-iphone-14-pro.png?w=1600",
+    "date": "Sun 02 Sep 04:45PM",
+    "title": "iPhone 15 Pro Max: Superb Camera and Performance",
+    "description": "A flagship iPhone with superb camera and performance.",
+    "iconText": "Check stats"
+  },
+  {
+    "id": 18,
+    "imageUrl": "https://assets.hardwarezone.com/img/2023/10/google-pixel-8-reveal-4-oct.jpg",
+    "date": "Mon 03 Sep 05:15PM",
+    "title": "Google Pixel 8 Pro: Smart Features",
+    "description": "A smartphone with smart camera features and excellent performance.",
+    "iconText": "View gallery"
+  },
+  {
+    "id": 19,
+    "imageUrl": "https://images.fonearena.com/blog/wp-content/uploads/2023/10/OnePlus-Open_fonearena-2-1.jpg",
+    "date": "Tue 04 Sep 10:30AM",
+    "title": "OnePlus Open: Foldable Technology",
+    "description": "A foldable smartphone with a large screen and high performance.",
+    "iconText": "Read now"
+  }
+]
