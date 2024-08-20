@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Product {
   id: number;
@@ -81,7 +82,7 @@ const PupulorProduct: React.FC = () => {
         transition={{ duration: 0.5 }}
         className="flex justify-center mb-4"
       >
-        <img
+        <Image
           className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 rounded-lg transform transition-transform duration-300 ease-in-out hover:scale-125"
           src={detail.image}
           alt={detail.name}

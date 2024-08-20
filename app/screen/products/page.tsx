@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Link from "next/link";
+import Image from "next/image";
 import Pagination from "../../components/Organisms/Paginations";
 import { useSearchParams, useRouter } from "next/navigation";
 import ButtonGradient from "@/app/components/Atomic/ButtonGradient";
@@ -74,7 +75,7 @@ const ProductsPage = () => {
             {products.map((product) => (
               <Link href={`/screen/products/${product.id}`} key={product.id}>
                 <div className="border p-4 rounded-lg cursor-pointer hover:shadow-lg">
-                  <img src={product.thumbnail} alt={product.title} />
+                  <Image src={product.thumbnail} alt={product.title} />
                   <h2 className="text-lg font-semibold">{product.title}</h2>
                   <p>{product.description}</p>
                   <p className="font-bold">${product.price}</p>

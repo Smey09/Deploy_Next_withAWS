@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Product {
   id: number;
@@ -86,7 +87,7 @@ const PhoneProduct: React.FC = () => {
         transition={{ duration: 0.5 }}
         className="h-[300px] w-full flex justify-center mb-4 px-10 py-5"
       >
-        <img
+        <Image
           className="h-full w-full object-contain sm:object-cover rounded-lg transform transition-transform duration-300 ease-in-out hover:scale-125"
           src={detail.imageUrl}
           alt={detail.title}

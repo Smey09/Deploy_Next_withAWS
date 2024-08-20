@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const NevBar = () => {
   return (
@@ -9,7 +10,7 @@ const NevBar = () => {
             href="https://sabaicode.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
+            <Image
               src="https://sabaicode.com/_next/image?url=%2Fsabaicode.jpg&w=1080&q=75"
               className="h-8"
               alt="Flowbite Logo"

@@ -2,6 +2,7 @@
 
 import { fetchPaginatedMovies } from "@/app/api/Amazonpro/amazonpro";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 interface Data {
   _id: number;
@@ -53,7 +54,7 @@ const MoviesPage: React.FC = () => {
       {movieDetails && (
         <div className="mb-6">
           <h2 className="text-xl font-semibold">Featured Phone</h2>
-          <img
+          <Image
             src={movieDetails.image}
             alt={movieDetails.title}
             className="w-full h-64 object-cover"

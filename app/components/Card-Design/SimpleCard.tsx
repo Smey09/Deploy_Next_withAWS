@@ -1,5 +1,6 @@
 import React from "react";
 import Icons from "../Atomic/Icons";
+import Image from "next/image";
 
 export interface SimpleCardProps {
   id: number;
@@ -28,7 +29,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
   return (
     <a href={`/screen/products/phones/${id}`}>
       <div className="w-full h-[460px] max-w-sm bg-white border border-b-gray-400 m-2 flex flex-col justify-between hover:bg-gray-200 hover:border-blue-400 transform transition-transform duration-300 ease-in-out hover:scale-105">
-        <img src={imageUrl} alt="Profile" className="w-full h-auto" />
+        <Image src={imageUrl} alt="Profile" className="w-full h-auto" />
         <div className="px-6 py-4 flex flex-col flex-grow">
           <div>
             <p className="font-semibold text-sm text-gray-400 align-text-bottom">

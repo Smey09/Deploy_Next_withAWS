@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 const Loading: React.FC = () => {
   return (
     <div>
-      <img
+      <Image
         src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Logo_loading.png"
         alt="loading..!"
       />

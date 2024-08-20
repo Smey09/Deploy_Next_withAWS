@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import axios from "axios";
+import Image from "next/image";
 
 interface Product {
   id: number;
@@ -57,7 +58,11 @@ const ProductDetailPage = () => {
     <div className="container mx-auto p-4">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
-          <img src={product.thumbnail} alt={product.title} className="w-full" />
+          <Image
+            src={product.thumbnail}
+            alt={product.title}
+            className="w-full"
+          />
         </div>
         <div className="md:w-1/2 md:pl-8">
           <h1 className="text-3xl font-bold mb-4">{product.title}</h1>

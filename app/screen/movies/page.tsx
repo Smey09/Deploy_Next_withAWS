@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import {
   useFetchPaginatedMovies,
   useFetchMovieDetails,
@@ -59,7 +60,7 @@ const MovieTMDB: React.FC = () => {
       {/* Display video information in a card */}
       {firstVideo && (
         <div className="mb-4 p-2 rounded transform transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-gray-200">
-          <img
+          <Image
             src={`https://img.youtube.com/vi/${firstVideo.key}/hqdefault.jpg`}
             alt={firstVideo.name}
             className="w-full h-64 object-cover"

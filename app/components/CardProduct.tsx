@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Link from "next/link";
+import Image from "next/image";
 
 export interface Product {
   id: string;
@@ -24,7 +24,7 @@ const CartProduct: FC<CartProductProps> = ({ product }) => {
     >
       <a href={`/screen/products/pupulor/${product.id}`}>
         <div className="flex justify-center mb-4">
-          <img
+          <Image
             className="h-60 w-full rounded transform transition-transform duration-300 ease-in-out hover:scale-105"
             src={product.image}
             alt={product.name}
