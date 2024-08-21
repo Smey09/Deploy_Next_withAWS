@@ -7,7 +7,7 @@ import CardSelections from "../Atomic/CardSeletions";
 
 const Home = () => {
   const router = useRouter();
-  const My_URL = "https://d3ihbhapgt1x8a.cloudfront.net";
+  const My_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
   const optionsClient = [
     { value: `${My_URL}/screen/client/users`, label: "Get Users" },

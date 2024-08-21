@@ -13,7 +13,9 @@ const NevBar = () => {
             <Image
               src="https://sabaicode.com/_next/image?url=%2Fsabaicode.jpg&w=1080&q=75"
               className="h-8"
-              alt="Flowbite Logo"
+              alt="Sabai Code"
+              width={40}
+              height={50}
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               SabaiCode

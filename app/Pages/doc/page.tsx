@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Pagination from "@/app/components/Organisms/Paginations";
 import React, { Suspense } from "react";
 import NevBar from "../NevBar";
@@ -46,7 +47,21 @@ const Doc = () => {
           <h2 className="text-xl font-bold mb-2 py-5">Card Products</h2>
           <ul>
             {mockProducts.map((product) => (
-              <CartProduct key={product.id} product={product} />
+              <li
+                key={product.id}
+                className="mb-4 p-4 border rounded-lg bg-white shadow-md"
+              >
+                <h3 className="text-lg font-semibold">{product.name}</h3>
+                <p>{product.description}</p>
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  width={800}
+                  height={600}
+                  className="my-4 rounded"
+                />
+                <p>{`Price: $${product.price}`}</p>
+              </li>
             ))}
           </ul>
         </div>

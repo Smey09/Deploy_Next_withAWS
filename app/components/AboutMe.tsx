@@ -7,7 +7,9 @@ const AboutMe = () => {
         <Image
           className="w-32 h-32 md:w-24 md:h-24 lg:w-32 lg:h-32 rounded-full shadow-lg"
           src="https://avatars.githubusercontent.com/u/149933218?v=4"
-          alt="Smey image"
+          alt="GitHub Avatar"
+          width={400}
+          height={400}
         />
         <div className="flex flex-col space-y-2 text-center md:text-left">
           <div>

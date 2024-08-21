@@ -35,9 +35,7 @@ const ProductsPage = () => {
     setError(null);
     try {
       const response = await axios.get(
-        `https://dummyjson.com/products?limit=${limit}&skip=${
-          (page - 1) * limit
-        }`
+        `https://dummyjson.com/products?limit=${limit}&skip=${(page - 1) * limit}`
       );
       setProducts(response.data.products);
       setTotal(response.data.total);
@@ -52,6 +50,7 @@ const ProductsPage = () => {
   const handlePhoneButtonClick = () => {
     router.push("/screen/products/phones");
   };
+
   const handlepupulorButtonClick = () => {
     router.push("/screen/products/pupulor");
   };
@@ -62,7 +61,7 @@ const ProductsPage = () => {
         <h1>Products</h1>
         <div className="w-[100%] flex items-center justify-start mx-5 space-x-2">
           <ButtonGradient text="Phone" onClick={handlePhoneButtonClick} />
-          <ButtonGradient text="pupulors" onClick={handlepupulorButtonClick} />
+          <ButtonGradient text="Pupulors" onClick={handlepupulorButtonClick} />
         </div>
       </div>
       <div className="container mx-auto p-4 bg-white border border-blue-300">
@@ -75,8 +74,16 @@ const ProductsPage = () => {
             {products.map((product) => (
               <Link href={`/screen/products/${product.id}`} key={product.id}>
                 <div className="border p-4 rounded-lg cursor-pointer hover:shadow-lg">
-                  <Image src={product.thumbnail} alt={product.title} />
-                  <h2 className="text-lg font-semibold">{product.title}</h2>
+                  <Image
+                    src={product.thumbnail}
+                    alt={product.title}
+                    width={400}
+                    height={250}
+                    className="w-full h-auto object-cover rounded"
+                  />
+                  <h2 className="text-lg font-semibold mt-2">
+                    {product.title}
+                  </h2>
                   <p>{product.description}</p>
                   <p className="font-bold">${product.price}</p>
                 </div>
