@@ -22,19 +22,14 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Run tests with coverage
+      - name: Run tests and generate coverage report
         run: yarn test --coverage
-        env:
-          CI: true
 
-      - name: Upload coverage report
+      - name: Upload coverage report as artifact
         uses: actions/upload-artifact@v3
         with:
           name: coverage-report
-          path: coverage/
-
-      - name: Display coverage summary
-        run: cat coverage/lcov-report/index.html | sed -n '/<div id="total-summary"/,/<\/table>/p'
+          path: coverage
 
   deploy:
     runs-on: ubuntu-latest
