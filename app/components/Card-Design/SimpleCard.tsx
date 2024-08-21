@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-interface SimpleCardProps {
+export interface SimpleCardProps {
   id: number;
   imageUrl: string;
   date: string;
@@ -21,7 +21,7 @@ const SimpleCard: React.FC<SimpleCardProps> = ({
       <Image
         src={imageUrl}
         alt={title}
-        width={400} 
+        width={400}
         height={250}
         className="w-full h-auto object-cover rounded"
       />
