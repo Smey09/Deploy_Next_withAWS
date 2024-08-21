@@ -1,19 +1,13 @@
 import React from "react";
 import { Meta, StoryFn } from "@storybook/react";
-import ProductDetails, { ProductDetailsProps } from "../CardDetail";
-import CardDetail from "../CardDetail";
+import ProductDetails from "../CardDetail"; // Ensure the correct import path
 
-// export default {
-//   title: "UI/Card/ProductDetails",
-//   component: ProductDetails,
-// } as Meta;
-
-const meta: Meta<typeof CardDetail> = {
-  component: CardDetail,
+const meta: Meta<typeof ProductDetails> = {
+  component: ProductDetails,
 };
 export default meta;
 
-const Template: StoryFn<ProductDetailsProps> = (args) => (
+const Template: StoryFn<typeof ProductDetails> = (args) => (
   <ProductDetails {...args} />
 );
 

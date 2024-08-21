@@ -28,6 +28,8 @@ const CartProduct: FC<CartProductProps> = ({ product }) => {
             className="h-60 w-full rounded transform transition-transform duration-300 ease-in-out hover:scale-105"
             src={product.image}
             alt={product.name}
+            width={500}
+            height={300}
           />
         </div>
         <div className="p-2">

@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "storybook test --coverage"
+    "test-storybook": "test-storybook"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -31,6 +31,7 @@
     "@storybook/nextjs": "^8.2.9",
     "@storybook/react": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@storybook/test-runner": "^0.19.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-copy-to-clipboard": "^5.0.7",

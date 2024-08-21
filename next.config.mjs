@@ -11,7 +11,8 @@ export default {
       "assets.hardwarezone.com",
       "cdn.mos.cms.futurecdn.net",
       "d3ihbhapgt1x8a.cloudfront.net",
-      "dummyjson.com", // Add this line
+      "dummyjson.com",
+      "fdn.gsmarena.com",
     ],
   },
 };

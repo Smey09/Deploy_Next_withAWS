@@ -18,7 +18,13 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({
     <div className="container mx-auto p-4">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
-          <Image src={thumbnail} alt={title} className="w-full" />
+          <Image
+            src={thumbnail}
+            alt={title}
+            width={500}
+            height={300}
+            className="w-full"
+          />
         </div>
         <div className="md:w-1/2 md:pl-8">
           <h1 className="text-3xl font-bold mb-4">{title}</h1>
