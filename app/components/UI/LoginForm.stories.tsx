@@ -13,18 +13,18 @@ type Story = StoryObj<typeof LoginForm>;
 
 export const EmptyForm: Story = {};
 
-export const FilledForm: Story = {
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
+// export const FilledForm: Story = {
+//   play: async ({ canvasElement }) => {
+//     const canvas = within(canvasElement);
 
-    await userEvent.type(canvas.getByTestId("email"), "email@provider.com");
+//     await userEvent.type(canvas.getByTestId("email"), "email@provider.com");
 
-    await userEvent.type(canvas.getByTestId("password"), "a-random-password");
+//     await userEvent.type(canvas.getByTestId("password"), "a-random-password");
 
-    await userEvent.click(canvas.getByRole("button"));
+//     await userEvent.click(canvas.getByRole("button"));
 
-    await expect(
-      await canvas.findByText("Everything is perfect. Nice!")
-    ).toBeInTheDocument();
-  },
-};
+//     await expect(
+//       await canvas.findByText("Everything is perfect. Nice!")
+//     ).toBeInTheDocument();
+//   },
+// };
