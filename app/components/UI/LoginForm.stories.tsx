@@ -24,7 +24,7 @@ export const FilledForm: Story = {
     await userEvent.click(canvas.getByRole("button"));
 
     await expect(
-      canvas.getByText("Everything is perfect. Nice!")
+      await canvas.findByText("Everything is perfect. Nice!")
     ).toBeInTheDocument();
   },
 };
