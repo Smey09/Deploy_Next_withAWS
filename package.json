@@ -10,7 +10,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "test": "jest --coverage --passWithNoTests"
+    "test": "jest --coverage --passWithNoTests --config jest.config.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",
