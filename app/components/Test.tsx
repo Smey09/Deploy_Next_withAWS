@@ -7,6 +7,7 @@ const Test = () => {
         <h1>CD/CD</h1>
         <p>hello CI/CD New Update</p>
         <p>hello CI/CD New Update By Branch Main</p>
+        <p>hello CI/CD New Update By Branch Main</p>
       </div>
     </div>
   );
